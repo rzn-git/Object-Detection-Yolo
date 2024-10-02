@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 # Load YOLOv5 model (this will automatically download pretrained weights)
-model = YOLO("yolov5s.pt")  # You can use 'yolov5m.pt', 'yolov5l.pt' for larger models
+model = YOLO('model/yolov5su.pt')  # You can use 'yolov5m.pt', 'yolov5l.pt' for larger models
 
 # Initialize webcam
 cap = cv2.VideoCapture(0)
